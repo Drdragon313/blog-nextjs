@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const Posts = ({
+const Post = ({
 	id,
 	title,
 	content,
@@ -24,4 +24,4 @@ const Posts = ({
 	);
 };
 
-export default Posts;
+export default Post;

@@ -1,21 +1,16 @@
 import React from "react";
 import { posts } from "@/app/lib/placeholderData";
-const page = async ({ params }: { params: { id: string } }) => {
-	// Ensure params are awaited (though usually not needed in page components)
-	const { id } = params;
+import Post from "@/app/ui/components/post/Post";
+const page = () => {
+	// const { id } = params;
 
-	const post = posts.find((post) => post.id === id);
+	// const post = posts.find((post) => post.id === id);
+	// console.log(post);
+	// if (!post) {
+	// 	return <div>Post not found</div>;
+	// }
 
-	if (!post) {
-		return <div>Post not found</div>;
-	}
-
-	return (
-		<div>
-			<h1>{post.title}</h1>
-			<p>{post.content}</p>
-		</div>
-	);
+	return <div>some post</div>;
 };
 
 export default page;
