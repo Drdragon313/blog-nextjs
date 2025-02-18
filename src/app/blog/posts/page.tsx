@@ -1,6 +1,6 @@
 import React from "react";
 import { posts } from "@/app/lib/placeholderData";
-import Post from "@/app/ui/components/post/Posts";
+import Post from "@/app/ui/components/post/Post";
 const page = () => {
 	return (
 		<>
